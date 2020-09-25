@@ -22,7 +22,8 @@
         "coverage": "nyc mocha",
         "build": "tsc -p tsconfig.production.json",
         "watch": "tsc -p tsconfig.production.json -w",
-        "lint": "tslint --fix --project ."
+        "lint": "tslint --fix --project .",
+        "prepublishOnly": "yarn build"
     },
     "files": [
         "dist"
