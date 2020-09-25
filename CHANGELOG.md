@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.2](https://github.com/HitkoDev/md-shortcodes-lint/compare/v0.2.1...v0.2.2) (2020-09-25)
+
+
+### Bug Fixes
+
+* **vscode-remark-hugo:** build command ([fc45a3f](https://github.com/HitkoDev/md-shortcodes-lint/commit/fc45a3f9ce2dd1bbf29f36c425accc562936b958))
+
+
+
+
+
 ## [0.2.1](https://github.com/HitkoDev/md-shortcodes-lint/compare/v0.2.0...v0.2.1) (2020-09-25)
 
 
