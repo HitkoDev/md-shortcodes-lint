@@ -95,11 +95,11 @@ export function parseParam(value: string, endBlock: string, asValue = false): Pa
 const escapingTokens = ["'", '"', '`']
 const escapingTokensSet = new Set(escapingTokens)
 
-export function escapeAttribute(attr: string) {
+export function escapeAttribute(attr: string, forceQuotes = false) {
     const hasTokens = !!escapingTokens.find(t => attr.indexOf(t) >= 0)
     const freeToken = escapingTokens.find(t => attr.indexOf(t) < 0)
     const hasNewLine = attr.indexOf('\n') >= 0
-    const needsEscape = hasTokens || !attr.match(/^[a-z0-9]+$/)
+    const needsEscape = forceQuotes || hasTokens || !attr.match(/^[a-z0-9]+$/)
 
     if (hasNewLine)
         return '`' + attr.replace(/`/g, '\\`') + '`'

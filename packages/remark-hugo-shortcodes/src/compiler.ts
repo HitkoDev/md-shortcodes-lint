@@ -17,7 +17,7 @@ export function shortcodeCompiler(node: Node) {
     if (attributes.length)
         result += ' ' + attributes.map(attr => {
             return attr
-                .map(escapeAttribute)
+                .map((a, i) => escapeAttribute(a, i > 0))
                 .join('=')
         }).join(' ')
 
