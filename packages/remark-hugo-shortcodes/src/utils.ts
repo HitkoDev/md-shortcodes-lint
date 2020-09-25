@@ -92,7 +92,7 @@ export function parseParam(value: string, endBlock: string, asValue = false): Pa
     }
 }
 
-const escapingTokens = ["'", '"', '`']
+const escapingTokens = ['"', '`']
 const escapingTokensSet = new Set(escapingTokens)
 
 export function escapeAttribute(attr: string, forceQuotes = false) {
