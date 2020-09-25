@@ -7,12 +7,12 @@ export function shortcodeCompiler(node: Node) {
         return ''
 
     const { identifier, attributes, closing, selfClosing, startBlock, endBlock } = node
-    let result = startBlock
+    let result = startBlock + ' '
 
     if (closing)
         result += '/'
 
-    result += ' ' + identifier
+    result += identifier
 
     if (attributes.length)
         result += ' ' + attributes.map(attr => {
