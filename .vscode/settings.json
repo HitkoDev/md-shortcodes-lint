@@ -1,0 +1,32 @@
+{
+    "editor.insertSpaces": true,
+    "editor.tabSize": 4,
+    "editor.detectIndentation": false,
+    "editor.formatOnSave": true,
+    "editor.wordWrap": "on",
+    "editor.codeActionsOnSave": {
+        "source.fixAll": true
+    },
+    "files.autoSave": "off",
+    "html.format.wrapAttributes": "force",
+    "html.format.wrapLineLength": 0,
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": false,
+    "typescript.tsdk": "node_modules/typescript/lib",
+    "tidyMarkdown.ensureFirstHeaderIsH1": false,
+    "tidyMarkdown.alignHeaders": false,
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "dist": true
+    },
+    "[yaml]": {
+        "editor.tabSize": 2
+    },
+    "[toml]": {
+        "editor.tabSize": 2
+    }
+}
