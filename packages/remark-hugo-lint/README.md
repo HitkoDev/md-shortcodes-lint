@@ -1,6 +1,6 @@
 # remark-hugo-lint
 
-[Remark](https://github.com/gnab/remark)-based linter [Hugo](https://gohugo.io/content-management/shortcodes/)-style shortcodes.
+[Remark](https://github.com/gnab/remark)-based linter for markdown with [Hugo](https://gohugo.io/content-management/shortcodes/)-style shortcodes.
 
 ## Example
 
