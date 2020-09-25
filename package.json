@@ -6,7 +6,7 @@
     "main": "dist/index.js",
     "scripts": {
         "bootstrap": "lerna bootstrap --use-workspaces",
-        "release": "lerna publish && yarn build && lerna run vs-publish",
+        "release": "yarn build && lerna publish && lerna run vs-publish",
         "test": "lerna run test",
         "lint": "lerna run lint",
         "build": "lerna run build",
