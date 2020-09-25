@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.4](https://github.com/HitkoDev/md-shortcodes-lint/compare/v0.2.3...v0.2.4) (2020-09-25)
+
+
+### Bug Fixes
+
+* **remark-hugo-shortcodes:** closing slash position ([32414ec](https://github.com/HitkoDev/md-shortcodes-lint/commit/32414ec03b9dbd57fe572761990128241247d7f8))
+
+
+
+
+
 ## [0.2.3](https://github.com/HitkoDev/md-shortcodes-lint/compare/v0.2.2...v0.2.3) (2020-09-25)
 
 
