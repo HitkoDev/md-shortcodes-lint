@@ -1,0 +1,28 @@
+{
+    "compilerOptions": {
+        "strict": true,
+        "strictPropertyInitialization": false,
+        "allowSyntheticDefaultImports": true,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "esModuleInterop": true,
+        "moduleResolution": "node",
+        "resolveJsonModule": true,
+        "module": "commonjs",
+        "target": "es2018",
+        "sourceMap": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "skipLibCheck": true,
+        "outDir": "dist",
+        "lib": [
+            "esnext",
+            "dom"
+        ]
+    },
+    "include": [
+        "src",
+        "test",
+        "typings"
+    ]
+}

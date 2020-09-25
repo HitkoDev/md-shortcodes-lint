@@ -1,0 +1,134 @@
+{
+    "name": "vscode-remark-hugo",
+    "version": "0.1.0",
+    "description": "Remark-based linter for Hugo",
+    "private": true,
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/HitkoDev/md-shortcodes-lint.git"
+    },
+    "author": "HitkoDev",
+    "license": "GPL-3.0",
+    "bugs": {
+        "url": "https://github.com/HitkoDev/md-shortcodes-lint/issues"
+    },
+    "homepage": "https://github.com/HitkoDev/md-shortcodes-lint/packages/vscode-remark-hugo#readme",
+    "main": "dist/index.js",
+    "esnext": "dist/index.js",
+    "module": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "publisher": "HitkoDev",
+    "engines": {
+        "vscode": "^1.6.0"
+    },
+    "categories": [
+        "Formatters",
+        "Programming Languages"
+    ],
+    "keywords": [
+        "formatter",
+        "markdown",
+        "hugo",
+        "remark"
+    ],
+    "icon": "images/icon.png",
+    "galleryBanner": {
+        "color": "#B2322F",
+        "theme": "dark"
+    },
+    "activationEvents": [
+        "onLanguage:markdown"
+    ],
+    "contributes": {
+        "configuration": {
+            "type": "object",
+            "title": "Remark Hugo configuration",
+            "properties": {
+                "remarkHugo.disableFormatter": {
+                    "type": "boolean",
+                    "default": false,
+                    "description": "Explicitly enable/disble the formatter"
+                },
+                "remarkHugo.tokens": {
+                    "type": "array",
+                    "items": {
+                        "type": "array",
+                        "items": {
+                            "type": "string"
+                        }
+                    },
+                    "default": [
+                        [
+                            "{{<",
+                            ">}}"
+                        ],
+                        [
+                            "{{%",
+                            "%}}"
+                        ]
+                    ],
+                    "description": "Array of shortcode tokens as `[start, end]`"
+                },
+                "remarkHugo.inlineMode": {
+                    "type": "boolean",
+                    "default": true,
+                    "description": "Whether to parse inline shortcodes"
+                },
+                "remarkHugo.markdownAttributes": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    },
+                    "default": [
+                        "title",
+                        "alt",
+                        "caption"
+                    ],
+                    "description": "Attributes where value contains markdown"
+                }
+            }
+        }
+    },
+    "scripts": {
+        "test": "mocha --parallel",
+        "coverage": "nyc mocha",
+        "build": "vsce package",
+        "build:tsc": "tsc -p tsconfig.production.json",
+        "build:bundle": "rollup -c ./rollup.config.js",
+        "watch": "tsc -p tsconfig.production.json -w",
+        "lint": "tslint --fix --project .",
+        "vscode:prepublish": "yarn build:tsc && yarn build:bundle"
+    },
+    "files": [
+        "dist",
+        "images"
+    ],
+    "devDependencies": {
+        "@rollup/plugin-commonjs": "^15.1.0",
+        "@rollup/plugin-json": "^4.1.0",
+        "@rollup/plugin-node-resolve": "^9.0.0",
+        "@testdeck/mocha": "^0.1.2",
+        "@types/chai": "^4.2.12",
+        "@types/chai-as-promised": "^7.1.3",
+        "@types/mocha": "^8.0.3",
+        "@types/node": "^14.11.2",
+        "chai": "^4.2.0",
+        "chai-as-promised": "^7.1.1",
+        "mocha": "^8.1.3",
+        "remark-hugo-lint": "^0.1.0",
+        "rollup": "^2.28.2",
+        "rollup-plugin-sourcemaps": "^0.6.2",
+        "source-map-support": "^0.5.19",
+        "vsce": "^1.80.0",
+        "vscode": "^1.1.37"
+    },
+    "nyc": {
+        "extension": [
+            ".ts"
+        ],
+        "include": [
+            "src"
+        ],
+        "all": true
+    }
+}
