@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.5](https://github.com/HitkoDev/md-shortcodes-lint/compare/v0.2.4...v0.2.5) (2020-09-25)
+
+**Note:** Version bump only for package vscode-remark-hugo
+
+
+
+
+
 ## [0.2.4](https://github.com/HitkoDev/md-shortcodes-lint/compare/v0.2.3...v0.2.4) (2020-09-25)
 
 **Note:** Version bump only for package vscode-remark-hugo

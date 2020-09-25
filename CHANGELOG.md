@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.5](https://github.com/HitkoDev/md-shortcodes-lint/compare/v0.2.4...v0.2.5) (2020-09-25)
+
+
+### Bug Fixes
+
+* **remark-hugo-shortcodes:** remove single quote ([940d806](https://github.com/HitkoDev/md-shortcodes-lint/commit/940d8065d0bdd5537c0773ee34aaad3b7f6ceb13))
+
+
+
+
+
 ## [0.2.4](https://github.com/HitkoDev/md-shortcodes-lint/compare/v0.2.3...v0.2.4) (2020-09-25)
 
 
