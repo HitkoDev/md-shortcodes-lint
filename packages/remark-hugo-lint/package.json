@@ -12,7 +12,7 @@
     "bugs": {
         "url": "https://github.com/HitkoDev/md-shortcodes-lint/issues"
     },
-    "homepage": "https://github.com/HitkoDev/md-shortcodes-lint/packages/remark-hugo-lint#readme",
+    "homepage": "https://github.com/HitkoDev/md-shortcodes-lint/tree/master/packages/remark-hugo-lint#readme",
     "main": "dist/index.js",
     "esnext": "dist/index.js",
     "module": "dist/index.js",

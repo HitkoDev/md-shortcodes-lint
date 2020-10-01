@@ -1,7 +1,8 @@
 {
     "name": "vscode-remark-hugo",
+    "displayName": "Hugo markdown formatter",
     "version": "0.2.5",
-    "description": "Remark-based linter for Hugo",
+    "description": "Remark-based code formatter for Hugo markdown",
     "private": true,
     "repository": {
         "type": "git",
@@ -12,7 +13,7 @@
     "bugs": {
         "url": "https://github.com/HitkoDev/md-shortcodes-lint/issues"
     },
-    "homepage": "https://github.com/HitkoDev/md-shortcodes-lint/packages/vscode-remark-hugo#readme",
+    "homepage": "https://github.com/HitkoDev/md-shortcodes-lint/tree/master/packages/vscode-remark-hugo#readme",
     "main": "dist/index.js",
     "esnext": "dist/index.js",
     "module": "dist/index.js",
@@ -23,7 +24,8 @@
     },
     "categories": [
         "Formatters",
-        "Programming Languages"
+        "Programming Languages",
+        "Linters"
     ],
     "keywords": [
         "formatter",
