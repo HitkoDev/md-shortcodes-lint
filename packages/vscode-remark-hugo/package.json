@@ -1,7 +1,7 @@
 {
     "name": "vscode-remark-hugo",
     "displayName": "Hugo markdown formatter",
-    "version": "0.2.8",
+    "version": "0.2.9",
     "description": "Remark-based code formatter for Hugo markdown",
     "private": true,
     "repository": {
