@@ -1,7 +1,7 @@
 # Hugo markdown formatter
 
-[![Licence](https://flat.badgen.net/github/license/HitkoDev/md-shortcodes-lint/)](https://opensource.org/licenses/GPL-3.0)
-[![Visual Studio Marketplace](https://vsmarketplacebadge.apphb.com/installs-short/HitkoDev.vscode-remark-hugo.svg?style=flat-square)](https://marketplace.visualstudio.com/items?itemName=HitkoDev.vscode-remark-hugo)
+[![Licence](https://flat.badgen.net/github/license/HitkoDev/md-shortcodes-lint?color=blue)](https://opensource.org/licenses/GPL-3.0)
+[![Visual Studio Marketplace](https://flat.badgen.net/vs-marketplace/v/HitkoDev.vscode-remark-hugo?color=blue)](https://marketplace.visualstudio.com/items?itemName=HitkoDev.vscode-remark-hugo)
 
 [Remark](https://github.com/gnab/remark)-based code formatter (and linter) for markdown with support for [Hugo](https://gohugo.io/content-management/shortcodes/)-style shortcodes.
 

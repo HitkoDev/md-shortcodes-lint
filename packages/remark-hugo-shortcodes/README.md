@@ -1,5 +1,8 @@
 # remark-hugo-shortcodes
 
+[![Licence](https://flat.badgen.net/github/license/HitkoDev/md-shortcodes-lint?color=blue)](https://opensource.org/licenses/GPL-3.0)
+[![NPM](https://flat.badgen.net/npm/v/remark-hugo-shortcodes?color=blue)](https://www.npmjs.com/package/remark-hugo-shortcodes)
+
 [Remark](https://github.com/gnab/remark) parser & compiler for [Hugo](https://gohugo.io/content-management/shortcodes/)-style shortcodes.
 
 ## Example
