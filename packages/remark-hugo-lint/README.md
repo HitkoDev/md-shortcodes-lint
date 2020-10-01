@@ -20,3 +20,8 @@ promises.readFile('in.md', 'utf8')
     .then(() => console.log('Done!'))
 
 ```
+
+### See also
+
+-   [Remark shortcodes plugin](https://github.com/HitkoDev/md-shortcodes-lint/tree/master/packages/remark-hugo-shortcodes)
+-   [VS Code extension](https://github.com/HitkoDev/md-shortcodes-lint/tree/master/packages/vscode-remark-hugo)
