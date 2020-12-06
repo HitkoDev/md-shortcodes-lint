@@ -19,7 +19,12 @@ export function cleanCurly<T>(val: T): T {
     else if (val && typeof val == 'object') {
         Object.keys(val).forEach(k => (val as any)[k] = cleanCurly((val as any)[k]))
     } else if (typeof val == 'string') {
-        val = val.replace(/[’′]/g, "'").replace(/[“”″]/g, '"').replace(/–/g, '--').replace(/—/g, '---') as any
+        val = val
+            .replace(/[’′]/g, "'")
+            .replace(/[“”″]/g, '"')
+            .replace(/–/g, '--')
+            .replace(/—/g, '---')
+            .replace(/…/g, '...') as any
     }
     return val
 }
