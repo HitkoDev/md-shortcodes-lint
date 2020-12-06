@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.11](https://github.com/HitkoDev/md-shortcodes-lint/compare/v0.2.10...v0.2.11) (2020-12-06)
+
+
+### Bug Fixes
+
+* **remark-hugo-shortcodes:** handle ellipsis ([46e3bfd](https://github.com/HitkoDev/md-shortcodes-lint/commit/46e3bfd2b265e84adc7474dfc7858e235da123a9))
+
+
+
+
+
 ## [0.2.10](https://github.com/HitkoDev/md-shortcodes-lint/compare/v0.2.9...v0.2.10) (2020-10-01)
 
 **Note:** Version bump only for package md-shortcodes-lint
