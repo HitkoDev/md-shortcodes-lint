@@ -24,7 +24,7 @@ export class Formatter {
         try {
             const matter = fm(code)
             if (Object.keys(matter.attributes as any).length !== 0) {
-                out += `---\n${yaml.safeDump(cleanCurly(matter.attributes), { flowLevel: 1 }).trim()}\n---\n\n`
+                out += `---\n${yaml.dump(cleanCurly(matter.attributes), { flowLevel: 1 }).trim()}\n---\n\n`
             }
             content = matter.body
         } catch (error) {
@@ -42,5 +42,6 @@ export class Formatter {
         }))
 
         return out + formatted
+            .replace(/\]\\\(\{\{/g, ']({{')
     }
 }
