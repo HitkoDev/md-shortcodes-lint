@@ -1,6 +1,6 @@
 {
     "name": "remark-hugo-shortcodes",
-    "version": "0.2.12",
+    "version": "0.2.13",
     "description": "Remark parser for Hugo shortcodes",
     "private": false,
     "repository": {

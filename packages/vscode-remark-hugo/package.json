@@ -1,7 +1,7 @@
 {
     "name": "vscode-remark-hugo",
     "displayName": "Hugo markdown formatter",
-    "version": "0.2.12",
+    "version": "0.2.13",
     "description": "Remark-based code formatter for Hugo markdown",
     "private": true,
     "repository": {
@@ -118,7 +118,7 @@
         "chai": "^4.3.4",
         "chai-as-promised": "^7.1.1",
         "mocha": "^9.0.1",
-        "remark-hugo-lint": "^0.2.12",
+        "remark-hugo-lint": "^0.2.13",
         "rollup": "^2.52.2",
         "rollup-plugin-sourcemaps": "^0.6.3",
         "source-map-support": "^0.5.19",

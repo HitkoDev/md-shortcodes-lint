@@ -1,6 +1,6 @@
 {
     "name": "remark-hugo-lint",
-    "version": "0.2.12",
+    "version": "0.2.13",
     "description": "Remark-based linter for Hugo",
     "private": false,
     "repository": {
@@ -32,7 +32,7 @@
         "front-matter": "^4.0.2",
         "js-yaml": "^4.1.0",
         "remark": "<13.0.0",
-        "remark-hugo-shortcodes": "^0.2.12",
+        "remark-hugo-shortcodes": "^0.2.13",
         "remark-preset-lint-markdown-style-guide": "<4.0.0"
     },
     "devDependencies": {
