@@ -3,7 +3,7 @@
 [![Licence](https://flat.badgen.net/github/license/HitkoDev/md-shortcodes-lint?color=blue)](https://opensource.org/licenses/GPL-3.0)
 [![NPM](https://flat.badgen.net/npm/v/remark-hugo-lint?color=blue)](https://www.npmjs.com/package/remark-hugo-lint)
 
-[Remark](https://github.com/gnab/remark)-based linter for markdown with [Hugo](https://gohugo.io/content-management/shortcodes/)-style shortcodes.
+[Remark](https://github.com/remarkjs)-based linter for markdown with [Hugo](https://gohugo.io/content-management/shortcodes/)-style shortcodes.
 
 ## Example
 
